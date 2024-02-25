@@ -1,0 +1,17 @@
+{
+  "socketURL": "http:/localhost:9001",
+  "dirPath": "./frontend",
+  "homePage": "./frontend/admin/index.html",
+  "socketMessageEvent": "RTCMultiConnection-Message",
+  "socketCustomEvent": "RTCMultiConnection-Custom-Message",
+  "port": "9001",
+  "enableLogs": "true",
+  "autoRebootServerOnFailure": "true",
+  "isUseHTTPs": "false",
+  
+  "sslCabundle": "",
+  "enableAdmin": "true",
+  "adminUserName": "omar",
+  "adminPassword": "omar"
+  
+}

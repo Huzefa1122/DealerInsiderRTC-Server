@@ -1,0 +1,17 @@
+{
+  "socketURL": "https://dealerinsideapp.com:9001/",
+  "dirPath": "/home/dealerinside/public_html",
+  "homePage": "/admin/index.html",
+  "socketMessageEvent": "RTCMultiConnection-Message",
+  "socketCustomEvent": "RTCMultiConnection-Custom-Message",
+  "port": "9001",
+  "enableLogs": "true",
+  "autoRebootServerOnFailure": "true",
+  "isUseHTTPs": "true",
+  "sslKey": "../ssl/keys/9389d_337bf_463526b82dc7fd21708776c836b8e0d3.key",
+  "sslCert": "../ssl/certs/dealerinsideapp_com_9389d_337bf_1702684799_982e46d8b2033b3e15292de970f14225.crt",
+  "sslCabundle": "",
+  "enableAdmin": "true",
+  "adminUserName": "omar",
+  "adminPassword": "omar"
+}
