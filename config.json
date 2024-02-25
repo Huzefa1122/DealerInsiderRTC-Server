@@ -1,17 +1,18 @@
 {
-  "socketURL": "http:/localhost:9001",
-  "dirPath": "./frontend",
-  "homePage": "./frontend/admin/index.html",
+  "socketURL": "http:/carview.live:8080",
+  "dirPath": ".",
+  "homePage": ".",
   "socketMessageEvent": "RTCMultiConnection-Message",
   "socketCustomEvent": "RTCMultiConnection-Custom-Message",
-  "port": "9001",
+  "port": "8080",
   "enableLogs": "true",
   "autoRebootServerOnFailure": "true",
-  "isUseHTTPs": "false",
-  
+  "isUseHTTPs": "true",
+  "sslCert":"../../ssl/certs/carview_live_c3b56_20edd_1715558399_f0579a67c97850d12d663203979f8755.crt",
+  "sslKey":"../../ssl/keys/c3b56_20edd_3d01c2dc712e7d0237d5e209555eb7f7.key",
   "sslCabundle": "",
   "enableAdmin": "true",
-  "adminUserName": "omar",
-  "adminPassword": "omar"
+  "adminUserName": "Huzefa",
+  "adminPassword": "mhop"
   
 }
